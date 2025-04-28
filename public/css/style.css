@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.form-container, .job-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.job-post {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+button.decline {
+  background-color: #dc3545;
+}
+
+button.decline:hover {
+  background-color: #b02a37;
+}
+
+button.taken {
+  background-color: #6c757d;
+}
+
+button.taken:hover {
+  background-color: #5a6268;
+}
